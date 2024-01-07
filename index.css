@@ -96,3 +96,36 @@ img
 {
     margin-left: 132px;
 }
+
+@media screen and (max-width: 768px) {
+    
+header {
+    flex-direction: column;
+}
+
+main
+{
+    flex-direction: column;
+    
+} 
+
+form {
+
+    margin: 0 auto;
+    width: 70%;
+}
+
+.real-btn {
+
+    align-self: center;
+}
+
+ul {text-align: center;}
+
+
+img{display: none;}
+
+h2 {text-align: justify;}
+
+p{text-align: justify;}
+}
