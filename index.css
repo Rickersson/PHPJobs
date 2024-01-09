@@ -128,7 +128,8 @@ img{display: none;}
 h2 {
     font-size: 38px;}
 
-.txt { margin: 0 auto;
+.txt { position: absolute;
+      left: 50%
 }
 
-
+    }
